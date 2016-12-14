@@ -1,0 +1,11 @@
+version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
+options: "e3d43aa8b9268fee7e884af665b654cc"
+build_time: [534495028, 665207000]
+inputs:
+  "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Selfigram/User.swift": [533105156, 0]
+  "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Selfigram/ProfileViewController.swift": [534314398, 0]
+  "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Selfigram/SelfieCell.swift": [533717856, 0]
+  "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Selfigram/ViewController.swift": [531464645, 0]
+  "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Selfigram/AppDelegate.swift": [534494049, 0]
+  "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Selfigram/FeedViewController.swift": [534494927, 0]
+  "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Selfigram/Post.swift": [534494154, 0]

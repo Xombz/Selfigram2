@@ -1,0 +1,565 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AppDelegate"
+provides-nominal:
+- "C9Selfigram11AppDelegate"
+provides-member:
+- ["C9Selfigram11AppDelegate", ""]
+provides-dynamic-lookup:
+- "window"
+- "applicationWillTerminate"
+- "applicationDidEnterBackground"
+- "applicationWillResignActive"
+- "application"
+- "applicationDidBecomeActive"
+- "applicationWillEnterForeground"
+depends-top-level:
+- "Bool"
+- "UIApplicationDelegate"
+- "UIApplication"
+- "AssignmentPrecedence"
+- !private "PFUser"
+- !private "print"
+- "UIApplicationLaunchOptionsKey"
+- !private "BooleanLiteralType"
+- "AppDelegate"
+- !private "Parse"
+- !private "Post"
+- !private "ParseClientConfiguration"
+- "UIWindow"
+- !private "Void"
+- "UIResponder"
+- "StringLiteralType"
+depends-member:
+- !private ["Ps9AnyObject", "PFUser"]
+- !private ["Ps9AnyObject", "Parse"]
+- !private ["Ps9AnyObject", "ParseClientConfiguration"]
+- !private ["Ps9AnyObject", "Post"]
+- ["Ps9AnyObject", "application"]
+- ["Ps9AnyObject", "applicationDidBecomeActive"]
+- ["Ps9AnyObject", "applicationDidEnterBackground"]
+- ["Ps9AnyObject", "applicationDidFinishLaunching"]
+- ["Ps9AnyObject", "applicationDidReceiveMemoryWarning"]
+- ["Ps9AnyObject", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps9AnyObject", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps9AnyObject", "applicationShouldRequestHealthAuthorization"]
+- ["Ps9AnyObject", "applicationSignificantTimeChange"]
+- ["Ps9AnyObject", "applicationWillEnterForeground"]
+- ["Ps9AnyObject", "applicationWillResignActive"]
+- ["Ps9AnyObject", "applicationWillTerminate"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "initialize"]
+- !private ["Ps9AnyObject", "logInWithUsername"]
+- !private ["Ps9AnyObject", "password"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "registerSubclass"]
+- !private ["Ps9AnyObject", "signUpInBackground"]
+- !private ["Ps9AnyObject", "username"]
+- ["Ps9AnyObject", "window"]
+- ["Ps9AnyObject", ""]
+- ["C9Selfigram11AppDelegate", "Bool"]
+- !private ["C9Selfigram11AppDelegate", "PFUser"]
+- !private ["C9Selfigram11AppDelegate", "Parse"]
+- !private ["C9Selfigram11AppDelegate", "ParseClientConfiguration"]
+- !private ["C9Selfigram11AppDelegate", "Post"]
+- ["C9Selfigram11AppDelegate", "UIApplication"]
+- ["C9Selfigram11AppDelegate", "UIApplicationLaunchOptionsKey"]
+- ["C9Selfigram11AppDelegate", "UIWindow"]
+- !private ["C9Selfigram11AppDelegate", "Void"]
+- ["C9Selfigram11AppDelegate", "application"]
+- ["C9Selfigram11AppDelegate", "applicationDidBecomeActive"]
+- ["C9Selfigram11AppDelegate", "applicationDidEnterBackground"]
+- ["C9Selfigram11AppDelegate", "applicationDidFinishLaunching"]
+- ["C9Selfigram11AppDelegate", "applicationDidReceiveMemoryWarning"]
+- ["C9Selfigram11AppDelegate", "applicationProtectedDataDidBecomeAvailable"]
+- ["C9Selfigram11AppDelegate", "applicationProtectedDataWillBecomeUnavailable"]
+- ["C9Selfigram11AppDelegate", "applicationShouldRequestHealthAuthorization"]
+- ["C9Selfigram11AppDelegate", "applicationSignificantTimeChange"]
+- ["C9Selfigram11AppDelegate", "applicationWillEnterForeground"]
+- ["C9Selfigram11AppDelegate", "applicationWillResignActive"]
+- ["C9Selfigram11AppDelegate", "applicationWillTerminate"]
+- ["C9Selfigram11AppDelegate", "deinit"]
+- ["C9Selfigram11AppDelegate", "init"]
+- !private ["C9Selfigram11AppDelegate", "print"]
+- ["C9Selfigram11AppDelegate", "window"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "PFUser"]
+- !private ["Ps7CVarArg", "Parse"]
+- !private ["Ps7CVarArg", "ParseClientConfiguration"]
+- !private ["Ps7CVarArg", "Post"]
+- ["Ps7CVarArg", "application"]
+- ["Ps7CVarArg", "applicationDidBecomeActive"]
+- ["Ps7CVarArg", "applicationDidEnterBackground"]
+- ["Ps7CVarArg", "applicationDidFinishLaunching"]
+- ["Ps7CVarArg", "applicationDidReceiveMemoryWarning"]
+- ["Ps7CVarArg", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps7CVarArg", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps7CVarArg", "applicationShouldRequestHealthAuthorization"]
+- ["Ps7CVarArg", "applicationSignificantTimeChange"]
+- ["Ps7CVarArg", "applicationWillEnterForeground"]
+- ["Ps7CVarArg", "applicationWillResignActive"]
+- ["Ps7CVarArg", "applicationWillTerminate"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "initialize"]
+- !private ["Ps7CVarArg", "logInWithUsername"]
+- !private ["Ps7CVarArg", "password"]
+- !private ["Ps7CVarArg", "print"]
+- !private ["Ps7CVarArg", "registerSubclass"]
+- !private ["Ps7CVarArg", "signUpInBackground"]
+- !private ["Ps7CVarArg", "username"]
+- ["Ps7CVarArg", "window"]
+- ["Ps7CVarArg", ""]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "PFUser"]
+- !private ["Ps28CustomDebugStringConvertible", "Parse"]
+- !private ["Ps28CustomDebugStringConvertible", "ParseClientConfiguration"]
+- !private ["Ps28CustomDebugStringConvertible", "Post"]
+- ["Ps28CustomDebugStringConvertible", "application"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidBecomeActive"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidEnterBackground"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidFinishLaunching"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidReceiveMemoryWarning"]
+- ["Ps28CustomDebugStringConvertible", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps28CustomDebugStringConvertible", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps28CustomDebugStringConvertible", "applicationShouldRequestHealthAuthorization"]
+- ["Ps28CustomDebugStringConvertible", "applicationSignificantTimeChange"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillEnterForeground"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillResignActive"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillTerminate"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "initialize"]
+- !private ["Ps28CustomDebugStringConvertible", "logInWithUsername"]
+- !private ["Ps28CustomDebugStringConvertible", "password"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "registerSubclass"]
+- !private ["Ps28CustomDebugStringConvertible", "signUpInBackground"]
+- !private ["Ps28CustomDebugStringConvertible", "username"]
+- ["Ps28CustomDebugStringConvertible", "window"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "PFUser"]
+- !private ["Ps23CustomStringConvertible", "Parse"]
+- !private ["Ps23CustomStringConvertible", "ParseClientConfiguration"]
+- !private ["Ps23CustomStringConvertible", "Post"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "application"]
+- ["Ps23CustomStringConvertible", "applicationDidBecomeActive"]
+- ["Ps23CustomStringConvertible", "applicationDidEnterBackground"]
+- ["Ps23CustomStringConvertible", "applicationDidFinishLaunching"]
+- ["Ps23CustomStringConvertible", "applicationDidReceiveMemoryWarning"]
+- ["Ps23CustomStringConvertible", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps23CustomStringConvertible", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps23CustomStringConvertible", "applicationShouldRequestHealthAuthorization"]
+- ["Ps23CustomStringConvertible", "applicationSignificantTimeChange"]
+- ["Ps23CustomStringConvertible", "applicationWillEnterForeground"]
+- ["Ps23CustomStringConvertible", "applicationWillResignActive"]
+- ["Ps23CustomStringConvertible", "applicationWillTerminate"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "initialize"]
+- !private ["Ps23CustomStringConvertible", "logInWithUsername"]
+- !private ["Ps23CustomStringConvertible", "password"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "registerSubclass"]
+- !private ["Ps23CustomStringConvertible", "signUpInBackground"]
+- !private ["Ps23CustomStringConvertible", "username"]
+- ["Ps23CustomStringConvertible", "window"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "PFUser"]
+- !private ["Ps9Equatable", "Parse"]
+- !private ["Ps9Equatable", "ParseClientConfiguration"]
+- !private ["Ps9Equatable", "Post"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "application"]
+- ["Ps9Equatable", "applicationDidBecomeActive"]
+- ["Ps9Equatable", "applicationDidEnterBackground"]
+- ["Ps9Equatable", "applicationDidFinishLaunching"]
+- ["Ps9Equatable", "applicationDidReceiveMemoryWarning"]
+- ["Ps9Equatable", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps9Equatable", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps9Equatable", "applicationShouldRequestHealthAuthorization"]
+- ["Ps9Equatable", "applicationSignificantTimeChange"]
+- ["Ps9Equatable", "applicationWillEnterForeground"]
+- ["Ps9Equatable", "applicationWillResignActive"]
+- ["Ps9Equatable", "applicationWillTerminate"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "initialize"]
+- !private ["Ps9Equatable", "logInWithUsername"]
+- !private ["Ps9Equatable", "password"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "registerSubclass"]
+- !private ["Ps9Equatable", "signUpInBackground"]
+- !private ["Ps9Equatable", "username"]
+- ["Ps9Equatable", "window"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Ps8Hashable", "PFUser"]
+- !private ["Ps8Hashable", "Parse"]
+- !private ["Ps8Hashable", "ParseClientConfiguration"]
+- !private ["Ps8Hashable", "Post"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "application"]
+- ["Ps8Hashable", "applicationDidBecomeActive"]
+- ["Ps8Hashable", "applicationDidEnterBackground"]
+- ["Ps8Hashable", "applicationDidFinishLaunching"]
+- ["Ps8Hashable", "applicationDidReceiveMemoryWarning"]
+- ["Ps8Hashable", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps8Hashable", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps8Hashable", "applicationShouldRequestHealthAuthorization"]
+- ["Ps8Hashable", "applicationSignificantTimeChange"]
+- ["Ps8Hashable", "applicationWillEnterForeground"]
+- ["Ps8Hashable", "applicationWillResignActive"]
+- ["Ps8Hashable", "applicationWillTerminate"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "initialize"]
+- !private ["Ps8Hashable", "logInWithUsername"]
+- !private ["Ps8Hashable", "password"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "registerSubclass"]
+- !private ["Ps8Hashable", "signUpInBackground"]
+- !private ["Ps8Hashable", "username"]
+- ["Ps8Hashable", "window"]
+- ["Ps8Hashable", ""]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "PFUser"]
+- !private ["CSo8NSObject", "Parse"]
+- !private ["CSo8NSObject", "ParseClientConfiguration"]
+- !private ["CSo8NSObject", "Post"]
+- ["CSo8NSObject", "UIApplication"]
+- ["CSo8NSObject", "UIApplicationLaunchOptionsKey"]
+- ["CSo8NSObject", "UIWindow"]
+- !private ["CSo8NSObject", "Void"]
+- ["CSo8NSObject", "application"]
+- ["CSo8NSObject", "applicationDidBecomeActive"]
+- ["CSo8NSObject", "applicationDidEnterBackground"]
+- ["CSo8NSObject", "applicationDidFinishLaunching"]
+- ["CSo8NSObject", "applicationDidReceiveMemoryWarning"]
+- ["CSo8NSObject", "applicationProtectedDataDidBecomeAvailable"]
+- ["CSo8NSObject", "applicationProtectedDataWillBecomeUnavailable"]
+- ["CSo8NSObject", "applicationShouldRequestHealthAuthorization"]
+- ["CSo8NSObject", "applicationSignificantTimeChange"]
+- ["CSo8NSObject", "applicationWillEnterForeground"]
+- ["CSo8NSObject", "applicationWillResignActive"]
+- ["CSo8NSObject", "applicationWillTerminate"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "initialize"]
+- !private ["CSo8NSObject", "logInWithUsername"]
+- !private ["CSo8NSObject", "password"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "registerSubclass"]
+- !private ["CSo8NSObject", "signUpInBackground"]
+- !private ["CSo8NSObject", "username"]
+- ["CSo8NSObject", "window"]
+- !private ["PSo16NSObjectProtocol", "PFUser"]
+- !private ["PSo16NSObjectProtocol", "Parse"]
+- !private ["PSo16NSObjectProtocol", "ParseClientConfiguration"]
+- !private ["PSo16NSObjectProtocol", "Post"]
+- ["PSo16NSObjectProtocol", "application"]
+- ["PSo16NSObjectProtocol", "applicationDidBecomeActive"]
+- ["PSo16NSObjectProtocol", "applicationDidEnterBackground"]
+- ["PSo16NSObjectProtocol", "applicationDidFinishLaunching"]
+- ["PSo16NSObjectProtocol", "applicationDidReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "applicationId"]
+- ["PSo16NSObjectProtocol", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSo16NSObjectProtocol", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSo16NSObjectProtocol", "applicationShouldRequestHealthAuthorization"]
+- ["PSo16NSObjectProtocol", "applicationSignificantTimeChange"]
+- ["PSo16NSObjectProtocol", "applicationWillEnterForeground"]
+- ["PSo16NSObjectProtocol", "applicationWillResignActive"]
+- ["PSo16NSObjectProtocol", "applicationWillTerminate"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "initialize"]
+- !private ["PSo16NSObjectProtocol", "logInWithUsername"]
+- !private ["PSo16NSObjectProtocol", "password"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "registerSubclass"]
+- !private ["PSo16NSObjectProtocol", "server"]
+- !private ["PSo16NSObjectProtocol", "signUpInBackground"]
+- !private ["PSo16NSObjectProtocol", "username"]
+- ["PSo16NSObjectProtocol", "window"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["Sq", "deinit"]
+- !private ["CSo8PFObject", "init"]
+- !private ["CSo8PFObject", "logInWithUsername"]
+- !private ["CSo8PFObject", "password"]
+- !private ["CSo8PFObject", "registerSubclass"]
+- !private ["CSo8PFObject", "signUpInBackground"]
+- !private ["CSo8PFObject", "username"]
+- !private ["PSo13PFSubclassing", "init"]
+- !private ["PSo13PFSubclassing", "logInWithUsername"]
+- !private ["PSo13PFSubclassing", "password"]
+- !private ["PSo13PFSubclassing", "registerSubclass"]
+- !private ["PSo13PFSubclassing", "signUpInBackground"]
+- !private ["PSo13PFSubclassing", "username"]
+- ["CSo6PFUser", "deinit"]
+- !private ["CSo6PFUser", "init"]
+- !private ["CSo6PFUser", "logInWithUsername"]
+- !private ["CSo6PFUser", "password"]
+- !private ["CSo6PFUser", "signUpInBackground"]
+- !private ["CSo6PFUser", "username"]
+- !private ["CSo5Parse", "initialize"]
+- ["CSo24ParseClientConfiguration", "deinit"]
+- !private ["CSo24ParseClientConfiguration", "init"]
+- !private ["PSo31ParseMutableClientConfiguration", "applicationId"]
+- !private ["PSo31ParseMutableClientConfiguration", "deinit"]
+- !private ["PSo31ParseMutableClientConfiguration", "server"]
+- !private ["C9Selfigram4Post", "registerSubclass"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo21UIApplicationDelegate", "PFUser"]
+- !private ["PSo21UIApplicationDelegate", "Parse"]
+- !private ["PSo21UIApplicationDelegate", "ParseClientConfiguration"]
+- !private ["PSo21UIApplicationDelegate", "Post"]
+- ["PSo21UIApplicationDelegate", "application"]
+- ["PSo21UIApplicationDelegate", "applicationDidBecomeActive"]
+- ["PSo21UIApplicationDelegate", "applicationDidEnterBackground"]
+- ["PSo21UIApplicationDelegate", "applicationDidFinishLaunching"]
+- ["PSo21UIApplicationDelegate", "applicationDidReceiveMemoryWarning"]
+- ["PSo21UIApplicationDelegate", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSo21UIApplicationDelegate", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSo21UIApplicationDelegate", "applicationShouldRequestHealthAuthorization"]
+- ["PSo21UIApplicationDelegate", "applicationSignificantTimeChange"]
+- ["PSo21UIApplicationDelegate", "applicationWillEnterForeground"]
+- ["PSo21UIApplicationDelegate", "applicationWillResignActive"]
+- ["PSo21UIApplicationDelegate", "applicationWillTerminate"]
+- !private ["PSo21UIApplicationDelegate", "print"]
+- ["PSo21UIApplicationDelegate", "window"]
+- ["PSo21UIApplicationDelegate", ""]
+- ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "PFUser"]
+- !private ["CSo11UIResponder", "Parse"]
+- !private ["CSo11UIResponder", "ParseClientConfiguration"]
+- !private ["CSo11UIResponder", "Post"]
+- ["CSo11UIResponder", "UIApplication"]
+- ["CSo11UIResponder", "UIApplicationLaunchOptionsKey"]
+- ["CSo11UIResponder", "UIWindow"]
+- !private ["CSo11UIResponder", "Void"]
+- ["CSo11UIResponder", "application"]
+- ["CSo11UIResponder", "applicationDidBecomeActive"]
+- ["CSo11UIResponder", "applicationDidEnterBackground"]
+- ["CSo11UIResponder", "applicationDidFinishLaunching"]
+- ["CSo11UIResponder", "applicationDidReceiveMemoryWarning"]
+- ["CSo11UIResponder", "applicationProtectedDataDidBecomeAvailable"]
+- ["CSo11UIResponder", "applicationProtectedDataWillBecomeUnavailable"]
+- ["CSo11UIResponder", "applicationShouldRequestHealthAuthorization"]
+- ["CSo11UIResponder", "applicationSignificantTimeChange"]
+- ["CSo11UIResponder", "applicationWillEnterForeground"]
+- ["CSo11UIResponder", "applicationWillResignActive"]
+- ["CSo11UIResponder", "applicationWillTerminate"]
+- ["CSo11UIResponder", "deinit"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "print"]
+- ["CSo11UIResponder", "window"]
+- ["CSo11UIResponder", ""]
+- !private ["PSo30UIResponderStandardEditActions", "PFUser"]
+- !private ["PSo30UIResponderStandardEditActions", "Parse"]
+- !private ["PSo30UIResponderStandardEditActions", "ParseClientConfiguration"]
+- !private ["PSo30UIResponderStandardEditActions", "Post"]
+- ["PSo30UIResponderStandardEditActions", "application"]
+- ["PSo30UIResponderStandardEditActions", "applicationDidBecomeActive"]
+- ["PSo30UIResponderStandardEditActions", "applicationDidEnterBackground"]
+- ["PSo30UIResponderStandardEditActions", "applicationDidFinishLaunching"]
+- ["PSo30UIResponderStandardEditActions", "applicationDidReceiveMemoryWarning"]
+- ["PSo30UIResponderStandardEditActions", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSo30UIResponderStandardEditActions", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSo30UIResponderStandardEditActions", "applicationShouldRequestHealthAuthorization"]
+- ["PSo30UIResponderStandardEditActions", "applicationSignificantTimeChange"]
+- ["PSo30UIResponderStandardEditActions", "applicationWillEnterForeground"]
+- ["PSo30UIResponderStandardEditActions", "applicationWillResignActive"]
+- ["PSo30UIResponderStandardEditActions", "applicationWillTerminate"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "print"]
+- ["PSo30UIResponderStandardEditActions", "window"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "PFUser"]
+- !private ["Ps9_Hashable", "Parse"]
+- !private ["Ps9_Hashable", "ParseClientConfiguration"]
+- !private ["Ps9_Hashable", "Post"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "application"]
+- ["Ps9_Hashable", "applicationDidBecomeActive"]
+- ["Ps9_Hashable", "applicationDidEnterBackground"]
+- ["Ps9_Hashable", "applicationDidFinishLaunching"]
+- ["Ps9_Hashable", "applicationDidReceiveMemoryWarning"]
+- ["Ps9_Hashable", "applicationProtectedDataDidBecomeAvailable"]
+- ["Ps9_Hashable", "applicationProtectedDataWillBecomeUnavailable"]
+- ["Ps9_Hashable", "applicationShouldRequestHealthAuthorization"]
+- ["Ps9_Hashable", "applicationSignificantTimeChange"]
+- ["Ps9_Hashable", "applicationWillEnterForeground"]
+- ["Ps9_Hashable", "applicationWillResignActive"]
+- ["Ps9_Hashable", "applicationWillTerminate"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "initialize"]
+- !private ["Ps9_Hashable", "logInWithUsername"]
+- !private ["Ps9_Hashable", "password"]
+- !private ["Ps9_Hashable", "print"]
+- !private ["Ps9_Hashable", "registerSubclass"]
+- !private ["Ps9_Hashable", "signUpInBackground"]
+- !private ["Ps9_Hashable", "username"]
+- ["Ps9_Hashable", "window"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "C9Selfigram11AppDelegate"
+- "Sb"
+- "Ps7CVarArg"
+- !private "Vs9Character"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Sq"
+- !private "CSo8PFObject"
+- !private "PSo13PFSubclassing"
+- "CSo6PFUser"
+- !private "CSo5Parse"
+- "CSo24ParseClientConfiguration"
+- !private "PSo31ParseMutableClientConfiguration"
+- !private "C9Selfigram4Post"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "PSo21UIApplicationDelegate"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts.h"
+- "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTask.h"
+- "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTask+Exceptions.h"
+- "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Modules/module.modulemap"
+- "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFPurchase.h"
+- "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFProduct.h"
+- "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFPush+Deprecated.h"
+- "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFPush+Synchronous.h"
+- "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFPush.h"
+- "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFNetworkActivityIndicatorManager.h"
+- "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFInstallation.h"
+- "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFUserAuthenticationDelegate.h"
+- "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFUser+Deprecated.h"
+- "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFUser+Synchronous.h"
+- "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFSession.h"
+- "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFRole.h"
+- "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFRelation.h"
+- "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFQuery+Deprecated.h"
+- "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFQuery+Synchronous.h"
+- "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFQuery.h"
+- "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFObject+Deprecated.h"
+- "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFObject+Synchronous.h"
+- "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFObject+Subclass.h"
+- "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFGeoPoint.h"
+- "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFFile+Synchronous.h"
+- "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFFile+Deprecated.h"
+- "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFFile.h"
+- "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFConfig+Synchronous.h"
+- "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFConfig.h"
+- "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFCloud+Synchronous.h"
+- "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFCloud+Deprecated.h"
+- "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFCloud.h"
+- "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFAnonymousUtils+Deprecated.h"
+- "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFSubclassing.h"
+- "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFObject.h"
+- "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFUser.h"
+- "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFAnonymousUtils.h"
+- "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFAnalytics.h"
+- "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFACL.h"
+- "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/PFConstants.h"
+- "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/ParseClientConfiguration.h"
+- "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/Parse.h"
+- "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Headers/Parse-umbrella.h"
+- "/Users/cayley/Work/Lighthouse Labs/Selfigram/W9D2/Build/Products/Debug-iphonesimulator/Parse/Parse.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+interface-hash: "d45d1448fa7f7b8f3d02dd8714a58879"

@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
+options: "706dada0128c957f845883ee39916b30"
+build_time: [532672919, 899616000]
+inputs:
+  "/Users/cayley/Work/Lighthouse Labs/Selfigram/W1D2/Selfigram/ViewController.swift": [531464645, 0]
+  "/Users/cayley/Work/Lighthouse Labs/Selfigram/W1D2/Selfigram/AppDelegate.swift": [531464645, 0]
