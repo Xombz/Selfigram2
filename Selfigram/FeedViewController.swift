@@ -30,6 +30,7 @@ class FeedViewController: UITableViewController,
             })
         }
     }
+    @IBOutlet weak var refreshPulled: UIRefreshControl!
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -84,6 +85,20 @@ class FeedViewController: UITableViewController,
         // Preset the pickerController on screen
         self.present(pickerController, animated: true, completion: nil)
     }
+    @IBAction func doubleTappedSelfie(_ sender: UITapGestureRecognizer) {
+        // get the location (x,y) position on our tableView where we have clicked
+        let tapLocation = sender.location(in: tableView)
+        
+        // based on the x, y position we can get the indexPath for where we are at
+        if let indexPathAtTapLocation = tableView.indexPathForRow(at: tapLocation){
+            
+            // based on the indexPath we can get the specific cell that is being tapped
+            let cell = tableView.cellForRow(at: indexPathAtTapLocation) as! SelfieCell
+            
+            //run a method on that cell.
+            cell.tapAnimation()
+        }
+    }
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
         
@@ -115,8 +130,24 @@ class FeedViewController: UITableViewController,
             }
         }
         
+        
         //3. We remember to dismiss the Image Picker from our screen.
         dismiss(animated: true, completion: nil)
+    }
+    func getPosts() {
+        if let query = Post.query() {
+            query.order(byDescending: "createdAt")
+            query.includeKey("user")
+            
+            query.findObjectsInBackground(block: { (posts, error) -> Void in
+                self.refreshControl?.endRefreshing()
+                if let posts = posts as? [Post]{
+                    self.posts = posts
+                    self.tableView.reloadData()
+                }
+                
+            })
+        }
     }
     
     /*

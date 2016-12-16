@@ -21,8 +21,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Activity.registerSubclass()
         
         let configuration = ParseClientConfiguration { clientConfiguration in
-            clientConfiguration.applicationId = "ff51ecf5"
-            clientConfiguration.server = "https://ios-oken-pt-parse-server-2.herokuapp.com/parse"
+            clientConfiguration.applicationId = "5CDeHX2xNhW11QZXr9AvtBbEQY0lft4jpUuMFt9g"
+            clientConfiguration.server = "https://parse-server-ios-main.herokuapp.com/parse"
         }
         Parse.initialize(with: configuration)
         

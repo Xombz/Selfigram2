@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		936D502F1E00F69C000F1A34 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936D502E1E00F69C000F1A34 /* Activity.swift */; };
+		93777E251E038E7800801A92 /* ActivityViewControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93777E241E038E7800801A92 /* ActivityViewControllerTableViewController.swift */; };
+		93EA9FE01E038EC90065741B /* ActivityCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EA9FDF1E038EC90065741B /* ActivityCellTableViewCell.swift */; };
 		97212A121DE6A3940053147A /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97212A111DE6A3940053147A /* FeedViewController.swift */; };
 		9759111F1DCAFCC500C7B2D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9759111E1DCAFCC500C7B2D4 /* AppDelegate.swift */; };
 		975911211DCAFCC500C7B2D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975911201DCAFCC500C7B2D4 /* ViewController.swift */; };
@@ -46,6 +48,8 @@
 		64CC6A6DEF5BADF736A91849 /* Pods-SelfigramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelfigramTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SelfigramTests/Pods-SelfigramTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81FA1ABE5F8D217D7EBE8FC7 /* Pods_SelfigramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SelfigramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		936D502E1E00F69C000F1A34 /* Activity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		93777E241E038E7800801A92 /* ActivityViewControllerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityViewControllerTableViewController.swift; sourceTree = "<group>"; };
+		93EA9FDF1E038EC90065741B /* ActivityCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityCellTableViewCell.swift; sourceTree = "<group>"; };
 		97212A111DE6A3940053147A /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		9759111B1DCAFCC500C7B2D4 /* Selfigram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Selfigram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9759111E1DCAFCC500C7B2D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -131,6 +135,8 @@
 				975911221DCAFCC500C7B2D4 /* Main.storyboard */,
 				936D502E1E00F69C000F1A34 /* Activity.swift */,
 				97B6F8331DED5D1500D4D878 /* SelfieCell.swift */,
+				93777E241E038E7800801A92 /* ActivityViewControllerTableViewController.swift */,
+				93EA9FDF1E038EC90065741B /* ActivityCellTableViewCell.swift */,
 				97DD755D1DE4044F0021E20C /* User.swift */,
 				97DD755F1DE405220021E20C /* Post.swift */,
 				97212A111DE6A3940053147A /* FeedViewController.swift */,
@@ -464,11 +470,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93EA9FE01E038EC90065741B /* ActivityCellTableViewCell.swift in Sources */,
 				97DD755E1DE4044F0021E20C /* User.swift in Sources */,
 				9787308E1DDD6FEC00C1AAB4 /* ProfileViewController.swift in Sources */,
 				97B6F8341DED5D1500D4D878 /* SelfieCell.swift in Sources */,
 				975911211DCAFCC500C7B2D4 /* ViewController.swift in Sources */,
 				9759111F1DCAFCC500C7B2D4 /* AppDelegate.swift in Sources */,
+				93777E251E038E7800801A92 /* ActivityViewControllerTableViewController.swift in Sources */,
 				97212A121DE6A3940053147A /* FeedViewController.swift in Sources */,
 				936D502F1E00F69C000F1A34 /* Activity.swift in Sources */,
 				97DD75601DE405220021E20C /* Post.swift in Sources */,
